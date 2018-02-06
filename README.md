@@ -27,4 +27,4 @@
     2018/02/06 17:09:33 SUCCESS  ▶ 0005 './wxpay' is running...
     2018/02/06 17:09:33.725 [I] [asm_amd64.s:2086] http server Running on http://:8080
 
-即表明成功运行
+即表明成功运行: http://localhost:8080
