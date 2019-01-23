@@ -59,7 +59,7 @@ func (this *PayController) Get() {
 
 	wxCode := this.GetString("code")
 	if wxCode == "" {
-		this.Redirect(wx.CreateOauthUrlForCode("http://test3.beecloud.cn/wxpay/pay"), 302)
+		this.Redirect(wx.CreateOauthUrlForCode("http://example/wxpay/pay"), 302)
 	}else{
 		wx.SetCode(wxCode)
 
